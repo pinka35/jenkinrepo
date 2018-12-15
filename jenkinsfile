@@ -1,0 +1,18 @@
+def workspace;
+node
+{
+    
+    stage('Static Code Analysis')
+    {
+        echo "static codde analysis"
+    }
+    stage('Build')
+    {
+        echo "build"
+        
+    }
+    stage('Unit Testing')
+    {
+        echo "unit testing"
+    }
+}
